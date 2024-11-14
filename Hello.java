@@ -112,29 +112,60 @@ class Hello {
         // System.out.println(results);
 
         // switch statement:
-        int n = 2;
-        switch (n) {
-            case 1:
-                System.out.println("Monday");
-                break;
-            case 2:
-                System.out.println("Tuesday");
-                break;
-            case 3:
-                System.out.println("Wednesday");
-                break;
-            case 4:
-                System.out.println("Thursday");
-                break;
-            case 5:
-                System.out.println("Friday");
-                break;
-            case 6:
-                System.out.println("Saturday");
-                break;
-            case 7:
-                System.out.println("Sunday");
-                break;
+        // int n = 8;
+        // switch (n) {
+        // case 1:
+        // System.out.println("Monday");
+        // break;
+        // case 2:
+        // System.out.println("Tuesday");
+        // break;
+        // case 3:
+        // System.out.println("Wednesday");
+        // break;
+        // case 4:
+        // System.out.println("Thursday");
+        // break;
+        // case 5:
+        // System.out.println("Friday");
+        // break;
+        // case 6:
+        // System.out.println("Saturday");
+        // break;
+        // case 7:
+        // System.out.println("Sunday");
+        // break;
+        // default:
+        // System.out.println("Enter a valid value");
+        // }
+
+        // while, do while and for loop to repeat certain logic finite number or up on
+        // some condition
+
+        // int j = 1;
+        // while (j <= 5) {
+        // System.out.println("Hi " + j);
+        // j++;
+        // }
+        // System.out.println("Tata " + j);
+
+        // do while
+
+        // int a = 1;
+        // do {
+        // System.out.println("Hi " + a);
+        // a++;
+        // } while (a <= 4);
+
+        // for loop
+
+        for (int a = 1; a <= 5; a++) {
+            System.out.println("Day  " + a);
+            // nested for loop
+            for (int j = 1; j <= 9; j++) {
+                System.out.println("hour " + (j + 8) + " - " + (j + 9));
+
+            }
         }
 
     }
