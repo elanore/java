@@ -10,7 +10,7 @@ public class Multiarray {
 
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 4; j++) {
-                nums[ i ] [ j ] = (int)( Math.random() *  10);
+                nums[i][j] = (int) (Math.random() * 10);
             }
 
         }
@@ -21,7 +21,18 @@ public class Multiarray {
             }
             System.out.println();
         }
-
+        // jagged arrays - no need to specify number of columns in multi array
+        /*
+         * draw backs of array
+         * need to be homogenous
+         */
+/**
+ * array of objects 
+ * by default the value of integer array will be 0.
+ * exceptions are run time error
+ * num.length - array length
+ * 
+ */
     }
 
 }
